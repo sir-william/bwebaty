@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<configdata>
+<production>
+        <directories>
+            <base>%BASE_DIR%</base>
+            <application>{directories/base}/application</application>
+            <design>{directories/application}/design</design>
+            <templates>{directories/design}/templates</templates>
+            <layout>{directories/design}/layout</layout>
+        </directories>
+    </production>
+    <development extends="production">
+<!-- dev config overrides here -->
+    </development>
+</configdata>

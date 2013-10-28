@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<?php
+echo $this->loadSkin();
+echo $this->headMeta();
+echo $this->headTitle();
+echo $this->headScript();
+echo $this->headLink();
+?>
+
+</head>
+<body>
+	<div id="Layout">
+		<div id="header">
+				<?php echo $this->render('_header.phtml'); ?>
+		</div>
+		
+		 <!-- BEGIN CONTENT -->
+		<div id="Content" class="onepage">
+                <?php  echo $this->layoutLoader(); ?>
+				<div class="clearfix"></div>
+				<div class="clr"></div>
+		</div>
+		<!-- END CONTENT -->
+				
+			<div id="footer">
+					<?php echo $this->render('_footer.phtml'); ?>
+			</div>
+		</div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<module>
+    <name>user</name>
+    <description langKey="about_page_description"><![CDATA[Manage User]]></description>
+    <thumbnail></thumbnail>
+    <author>Moudni salaheddine</author>
+    <email>moudni.salaheddine@gmail.com</email>
+    <version>1.0.0</version>
+    <license>free</license>
+    <design>
+        <controllers>
+            <user>
+                <index>
+                    <template>front</template>
+                    <permission>guest</permission>
+                </index>
+            </user>
+			<auth>
+                <index>
+                    <template>front</template>
+                    <permission>guest</permission>
+                </index>
+				<login>
+                    <template>front</template>
+                    <permission>guest</permission>
+                </login>
+            </auth>
+        </controllers>
+    </design>
+</module>

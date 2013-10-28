@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <block  position="first">
+        <template module="default" controller="index" action="index" param="title" value="home"></template>
+    </block>
+    <block>
+        <htmlblock>
+            test
+        </htmlblock>
+    </block>
+</layout>

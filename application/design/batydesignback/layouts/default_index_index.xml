@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <block  position="first">
+        <template module="user" controller="error" action="index" param="title" value="home" script="home.phml" ></template>
+    </block>
+    <block>
+        <htmlblock>
+            test
+        </htmlblock>
+    </block>
+</layout>

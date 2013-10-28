@@ -1,0 +1,19 @@
+<module>
+    <name>default</name>
+    <description langKey="about_page_description"><![CDATA[Manage static pages]]></description>
+    <thumbnail></thumbnail>
+    <author>Moudni salaheddine</author>
+    <email>moudni.salaheddine@gmail.com</email>
+    <version>1.0.0</version>
+    <license>free</license>
+    <design>
+        <controllers>
+            <index>
+                <index>
+                    <template>front</template>
+                    <permission>guest</permission>
+                </index>
+            </index>
+        </controllers>
+    </design>
+</module>

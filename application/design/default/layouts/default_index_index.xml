@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <block  position="first">
+        <template module="user" controller="error" action="index" param="title" value="home" script="home.phtml" ></template>
+    </block>
+    <block  position="last">
+        <template module="default" controller="index" action="index" param="title" value="home" script="index.phtml" ></template>
+    </block>
+    <block>
+        <htmlblock>
+
+        </htmlblock>
+    </block>
+
+
+</layout>

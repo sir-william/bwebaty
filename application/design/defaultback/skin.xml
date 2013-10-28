@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin>
+	<stylesheets>
+		<stylesheet>style.css</stylesheet>
+		<stylesheet>style.css</stylesheet>
+	</stylesheets>
+	<scripts>
+		<script>jquery.min1.js</script>
+		<script>jquery.min.js</script>
+	</scripts>
+</skin>
