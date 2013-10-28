@@ -1,0 +1,124 @@
+
+body{
+	
+	font-family : Verdana,Arial, Helvetica, sans-serif;
+	font-size :10px;
+	background-color: #EAEAEA;
+	
+}
+#header{
+	background: url('../images/header.png')repeat;
+	height: 150px;
+	width: 1021px;
+	margin: auto;
+}
+#logo{
+    float: left;
+    padding: 15px 10px 10px 20px;
+}
+
+#connexion{
+    float: right;
+width: 306px;
+min-height: 112px;
+position: relative;
+margin: 21px;
+padding: 5px 240px 0 19px;
+background: url('../images/avatar.png') no-repeat;
+}
+#connexion h2{
+    font-size: 26px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+    margin: 0;
+    line-height: 50px;
+}
+
+#content {
+	width: 1013px;
+	height: 500px;
+	margin: auto;
+	background-color: ##ebf1f1;
+	top: -10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+#content2 {
+	width :auto;
+	margin: auto;
+	background-color: ##ebf1f1;
+	top:-10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	}
+
+#main-menu{
+    height: 84px;
+width: 1021px;
+background-image: url('../images/menu-back.png');
+margin: auto;
+    
+}
+
+#main-menu ul{
+    margin: 0;
+	padding-left: 163px;	
+    float: left;
+    }
+    
+#main-menu ul li {
+	     display :inline;
+        }
+
+    
+    #main-menu ul li.dash{
+        padding-left:20px;
+        
+    }
+     #main-menu ul li.menu{
+        padding-left:20px;
+        
+    }
+    #main-menu ul li.content{
+        padding-left:20px;
+        
+    }
+     #main-menu ul li.user{
+       padding-left:20px;
+        
+    }
+     #main-menu ul li.set{
+        padding-left:20px;
+        
+    }
+table {
+	display: table;
+	border-spacing: 20px;
+}
+#left-column{
+    width: 597px;
+    float: left;
+}
+
+#right-column{
+    float: right;
+}
+#right-column .right-block{
+        width: 306px;
+        min-height: 98px;
+        background: url('../images/graph.gif') no-repeat;
+        position: relative;
+        margin-bottom: 17px;
+        padding: 14px 19px 0 19px;
+    }
+#footer{
+    background-image: url("../images/footer.png");
+    font-size: 13px;
+    height: 30px;
+    margin: auto;
+    padding-top: 4px;
+    text-align: center;
+    width: 1020px;
+}
+
+    
